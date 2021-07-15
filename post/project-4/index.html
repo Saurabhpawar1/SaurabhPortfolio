@@ -126,7 +126,7 @@
           <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Project 4: Telco churn analysis</h1>
           
             <h2 class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
-                I have built a tool to predict the churn rate of telco company.
+                Machine Learning model to predict the churn rate of telco company.
             </h2>
           
         
@@ -209,8 +209,9 @@
         <li>Contract Type - Monthly customers are more likely to churn because of no contract terms, as they are free to go customers.</li>
         <li>No Online security, No Tech Support category are high churners</li>
         <li>Non senior Citizens are high churners</li>
-        <li>From the modeling I interpreted that after hyperparameter tuning, XGBOOST Classifier works best with respect to our model with aucroc score of 99.32.</li>
-        <li>While working on this project I faced the challenge with imbalanced dataset. I was able to overcome it with SMOTEENN upsampling technique. </li>
+        <li>From the modeling I interpreted that after hyperparameter tuning, ADABOOST Classifier works best with respect to our model with roc auc score of 81.63 and f1-score of 0.83 and 0.62 
+for class 0 and 1 respectively and published the detailed Power BI visualization report.</li>
+        <li>While working on this project I faced the challenge with imbalanced dataset. I was able to overcome it with SMOTEENN technique. </li>
         </ul>
 
 
@@ -231,13 +232,13 @@
 
 <figure>
     <img src="https://Saurabhpawar1.github.io/SaurabhPortfolio/images/proj4-22.png"/> 
-  <figcaption>Fig.4.2 - Confusion matrix of XGBClassifier</figcaption>
+  <figcaption>Fig.4.2 - Confusion matrix of ADABOOST Classifier</figcaption>
 </figure>   
 
 
 <figure>
     <img src="https://Saurabhpawar1.github.io/SaurabhPortfolio/images/proj4-33.png"/> 
-  <figcaption>Fig.4.3 - ROC Curve  of XGBClassifier</figcaption>
+  <figcaption>Fig.4.3 - ROC Curve  of ADABOOST Classifier</figcaption>
 </figure>    
 
 <p><a href="https://github.com/Saurabhpawar1/Improved-projects/blob/main/Telco%20churn%20analysis5.ipynb">Link to GitHub Repository</a></p>
